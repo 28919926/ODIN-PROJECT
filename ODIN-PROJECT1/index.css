@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    background-color: lightsalmon;
+}
+main {
+height: calc(100vh - 70px);
+display: flex;
+background-color: darkslategrey;
+}
+@media (max-width: 768px) {
+    .side-bar {
+        display: none;
+    }
+}
+.left {
+    display: flex;
+    align-items: center;
+
+}
+.left #menu {
+    padding: 0 7px;
+    cursor: pointer;
+
+
+}
+.search {
+    display: flex;
+    
+
+}
+.search form {
+    display: flex;
+    border: 1px solid cornflowerblue;
+    height: 45px;
+    border-width: 2px;
+
+
+}
+.search input {
+    width: 600px;
+    padding: 10px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px;
+
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid cornsilk;
+}
+
+.search button {
+    height: 100%;
+    width: 60px;
+    border: none;
+    background-color: deeppink;
+}
+.mic {
+    margin-top: 10px;
+}
+.material-icons {
+    color: deepskyblue;
+    padding: 0 7px;
+    cursor: pointer;
+}
+.content iframe {
+    /* padding-top: 5px;
+    padding-left: 30px;
+     */
+display: block;
+height: 55%;
+left: 3%;
+position: absolute;
+top: 10%;
+width: 55%;
+}
+h2{
+    padding-left: 45px;
+    padding-top: 0px;
+  
+}
+h4{
+    padding-left: 45px; 
+    padding-top: 10px;  
+}
+a{
+    padding-left: 45px;
+}
+
+.footer-icon{
+    padding-left: 40px;
+    padding-top: 5px;
+    
+}
+.subscribe{
+background-color: red;
+color: white;
+padding: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 15px;
+}
+
+button {
+    padding-top: 10px;
+    padding-left: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: darkcyan;
+    border-style: groove;
+}
+.comments textarea{
+    width: 50%;
+    height: 80px;
+    padding-left: 25px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+}
+.comments textarea:focus{
+    border: 1px solid cornflowerblue;
+    outline: 0;
+}
+.comments button{
+    border: 0;
+    padding: 10px 10px;
+    background-color: dodgerblue;
+    font-size: 12px;
+    border-radius: 3px;
+    color:white
+}
+
+.comments form{
+    padding-left: 40px;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    flex: 1;
+    margin-left: 950px;
+    /* width: 100%; */
+     top: 15px;
+    position: relative;
+    
+
+}
+#video{
+
+display: flex;
+flex-direction: column;
+/* height: fit-content; */
+/* width: 100px; */
+padding: 10px;
+cursor: pointer;
+margin:20px 5px;
+top: 30px; 
+position: relative;
+padding-top: 10px;
+overflow: hidden;
+
+
+
+
+}
+
+.thumbnail {
+
+    border-radius: 200px;
+    height: 35px;
+    margin-top: 15px;
+
+  
+}
+
+.video-details {
+    display: flex;
+    flex-direction: row;
+    text-align:left ;
+    margin-left: 2px;
+    color: aqua;
+    line-height: 20px;
+    font-size: 15px;
+}
+ .vid-title {
+     font-size: 15px;
+     font-family: "Roboto";
+     color: #0000;
+     font-weight: 500;
+     margin-top: 12px;
+     margin-bottom: 0;
+     margin-left: 5px;
+ }
+
+/* .video-details-text{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+span {
+
+} */
+
+/* .vid-views{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #0000;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+} */
+
+.vid-views{
+    margin-top: 12px;
+    align-items: center;
+}
+/* .img-row{
+   
+    background-color: darkturquoise;
+    margin: 20px 0; 
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 35%;
+    float: right;
+    display: flex; 
+  
+    
+} */
+
+
+/* }
+.content { 
+   
+   
+
+    margin-top: 5%;
+    
+    display: flex;
+
+}  */
+/* .img-row p{ */
+    /* margin-left: 20px; */
+    /* color: brown; */
+    /* line-height: 22px; */
+    /* font-size: 15px; */
+/* } */
+/* .column{ */
+    /* float: right; */
+    /* display: table; */
+    /* box-sizing: border-box; */
+    /* clear: both; */
+    /* width: 25%; */
+/* } */
+
+/* .side-bar{ */
+    /* height: 100%; */
+    /* width: 17%; */
+    /* background-color: aliceblue; */
+    /* overflow-y: hidden; */
+/* } */
